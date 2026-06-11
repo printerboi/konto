@@ -102,7 +102,7 @@ function TestPage() {
               <p className="text-sm font-black uppercase tracking-[0.08em] text-rose-700">
                 Konto
               </p>
-              <p className="text-xs font-medium text-slate-500">Boilerplate</p>
+              <p className="text-xs font-medium text-slate-500"></p>
             </div>
           </div>
 
@@ -135,7 +135,7 @@ function TestPage() {
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.08em] text-rose-700">
-                  Tailwind app shell
+                  
                 </p>
                 <h1 className="mt-1 text-2xl font-black text-slate-950">
                   {activeLabel}
