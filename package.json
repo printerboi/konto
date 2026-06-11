@@ -1,0 +1,11 @@
+{
+  "name": "konto",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "preview:frontend": "npm --prefix frontend run preview",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload --port 8000"
+  }
+}
